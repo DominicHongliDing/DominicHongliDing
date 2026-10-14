@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="240" viewBox="0 0 1120 240" role="img" aria-labelledby="title desc">
+<title id="title">从身边的问题，开始做 AI 产品</title><desc id="desc">人事工作 · 临床辅助 · Agent 评测</desc>
+<rect width="1120" height="240" rx="20" fill="#f5f3ee"/>
+<path d="M875 0H1120V240H980Z" fill="#b26845" opacity=".09"/>
+<path d="M949 0H1120V240H1054Z" fill="#b26845" opacity=".1"/>
+<rect x="44" y="42" width="34" height="4" rx="2" fill="#b26845"/>
+<g font-family="Segoe UI,Microsoft YaHei,PingFang SC,sans-serif">
+<text x="92" y="50" fill="#b26845" font-size="15" letter-spacing="3">HONGLI DING / PRODUCT NOTES</text>
+<text x="44" y="123" fill="#243448" font-size="40" font-weight="650">从身边的问题，开始做 AI 产品</text>
+<text x="46" y="175" fill="#586579" font-size="20">人事工作 · 临床辅助 · Agent 评测</text>
+</g><circle cx="1032" cy="70" r="16" fill="none" stroke="#b26845" stroke-width="2"/>
+<path d="M1016 70H1048M1032 54V86" stroke="#b26845" stroke-width="2"/>
+</svg>
