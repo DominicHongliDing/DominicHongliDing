@@ -36,6 +36,12 @@ EVO 为此保存测试问题、实际回答和评审依据，供产品、业务�
 
 [看产品与源码 →](https://github.com/DominicHongliDing/Agent-EVO) · [看设计思路 →](docs/agent-evo.md) · [看公开评测案例 →](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story)
 
+## AI 见闻录 · 资源与阅读分享
+
+我把学习和做项目时找到的 AI 网站、X / YouTube 作者、文章和视频整理进了一个公开资源库。每条写上适合谁、有什么用和原始出处，按周补充，也欢迎推荐你觉得有帮助的内容。
+
+[打开 AI 见闻录 →](https://github.com/DominicHongliDing/AI-Fieldnotes) · [看文章与视频 →](https://github.com/DominicHongliDing/AI-Fieldnotes/blob/main/guides/reading.md)
+
 ## 最近在关注
 
 我最近比较关心 Agent 怎样记住用户补充的信息、什么时候需要调用工具，以及出了问题该怎么查。Context Engineering、Harness 这些概念，也是在做项目时逐渐理解的：哪些信息该给模型，哪些步骤需要软件控制，哪些地方要留给人判断。
