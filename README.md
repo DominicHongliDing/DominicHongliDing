@@ -8,7 +8,7 @@
 
 平时喜欢试新模型和 AI 产品，读技术文档，也逛开源社区。遇到感兴趣的想法，会用 Codex 做个原型，看看实际用起来怎么样。我把值得分享的资源整理在「AI 见闻录」里，也欢迎来交流你的发现。
 
-目前正在寻找 **AI 产品经理**的机会，也关注 **FD 方向**。希望接下来的工作能让我更深入地接触用户，参与产品从需求讨论到交付使用的过程。
+目前正在寻找 **AI 产品经理**的机会，也关注 **FDE 方向**。希望接下来的工作能让我更深入地接触用户，参与产品从需求讨论到交付使用的过程。
 
 [个人作品站](https://dominicspace.com/#home) · [UniHR 源码](https://github.com/DominicHongliDing/UniHR-AgentOS) · [Clinical 产品介绍](https://github.com/DominicHongliDing/Clinical-Agent) · [EVO 产品与源码](https://github.com/DominicHongliDing/Agent-EVO)
 
