@@ -42,7 +42,7 @@ AI 根据产品说明起草测试题，按指定标准辅助评审回答，再�
 
 ## 从一个合成案例看设计
 
-公开的合成对话中，用户把病程从“两周”更正为“三天”，再请 Agent 总结。第二轮回答读起来通顺，却没有采用这个更正。
+公开的合成对话中，用户把病程从“两周”更正为“三天”，再请 Agent 总结。第二轮没有按更正后的病程完成总结，而是再次返回通用的信息不足提示。
 
 这个场景需要检查的是：后续回答有没有使用最新确认的信息。因此要保存前后两轮记录，写清预期结果，修复后再用同一个场景测试。
 
@@ -55,3 +55,7 @@ EVO 平台源码现已整理到 [Agent-EVO 仓库](https://github.com/DominicHon
 ## 在线案例怎么读
 
 打开[案例导览](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story)后，先看用户问题与 AI 回答，再切到「处理过程」。每一步先展示中文动作，点击后查看输入和结果，需要时再展开原始记录。最后对照评测结论，看看判断依据是否成立。浏览这些已保存的测试记录不需要 API Key。
+
+## 完整案例与设计说明
+
+[从更正失败到复测要求](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/cases/correction-review.md)展开原始对话、审核依据、时间线分层和验收方法。[完整产品设计](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/product-design.md)说明范围取舍、异常处理与下一轮使用验证。

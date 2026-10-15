@@ -30,7 +30,7 @@
 
 这是我从日常工作出发做的个人 Demo。我负责整理需求、设计流程和检查标准，并借助 AI 编程工具实现原型。
 
-[看产品与源码 →](https://github.com/DominicHongliDing/UniHR-AgentOS) · [看人事任务示例 →](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/unihr/index.html)
+[看产品与源码 →](https://github.com/DominicHongliDing/UniHR-AgentOS) · [读培训跟进案例 →](https://github.com/DominicHongliDing/UniHR-AgentOS/blob/main/docs/cases/training-follow-up.md) · [看人事任务示例 →](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/unihr/index.html)
 
 ### 02 / Clinical Agent · 病例工作台
 
@@ -38,7 +38,7 @@
 
 带着这些问题，我在实习后继续做了个人项目 Clinical Agent。它围绕同一位患者保存已确认的信息，从知识库中查找相关医学资料，让医生能接着补充情况、提出问题，并在回答旁查看引用和待核对的内容。最终的临床判断仍由医生作出。
 
-[看产品设计 →](https://github.com/DominicHongliDing/Clinical-Agent) · [看病例讨论示例 →](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html)
+[看产品设计 →](https://github.com/DominicHongliDing/Clinical-Agent) · [读病例更正案例 →](https://github.com/DominicHongliDing/Clinical-Agent/blob/main/docs/cases/patient-correction.md) · [看病例讨论示例 →](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html)
 
 ### 03 / Agent EVO · 评测与改进工作台
 
@@ -46,7 +46,7 @@
 
 EVO 把这个过程做成了工作台。产品、业务和开发同事可以对照测试要求查看回答，讨论哪里需要改，再比较修改前后的表现。AI 帮忙起草测试题、辅助评审和整理报告，评什么、结果是否合理，仍由人来确认。目前已公开源码、本地运行说明和在线案例。
 
-[看产品与源码 →](https://github.com/DominicHongliDing/Agent-EVO) · [看设计思路 →](docs/agent-evo.md) · [看公开评测案例 →](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story)
+[看产品与源码 →](https://github.com/DominicHongliDing/Agent-EVO) · [读评审与复测案例 →](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/cases/correction-review.md) · [看设计思路 →](docs/agent-evo.md) · [看公开评测案例 →](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story)
 
 ## AI 见闻录 · 资源与阅读分享
 
