@@ -2,7 +2,7 @@
 
 EVO 是我在做 Agent 的过程中逐渐整理出来的评测工作台，用来保存问题、审核回答，再检查修改有没有起作用。
 
-[查看源码与运行说明](https://github.com/DominicHongliDing/Agent-EVO) · [查看公开案例](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story) · [返回个人主页](../README.md)
+[查看源码与运行说明](https://github.com/DominicHongliDing/Agent-EVO) · [看一次评测](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story) · [返回个人主页](../README.md)
 
 ## 为什么会做它
 
@@ -51,3 +51,7 @@ AI 根据产品说明起草测试题，按指定标准辅助评审回答，再�
 在线版本提供 Clinical 公开案例，以及回答导入、测试集、评审与版本对比等入口；真实模型调用需要相应配置。平台仍在迭代，真实用户的首次使用与业务校准需要继续验证。Clinical 案例使用合成测试材料，医疗判断仍需专业医生审核。
 
 EVO 平台源码现已整理到 [Agent-EVO 仓库](https://github.com/DominicHongliDing/Agent-EVO)，包含工作台、连接器、合成样例和自动化测试。可以按[本地运行指南](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/local-setup.md)开始体验。
+
+## 在线案例怎么读
+
+打开[案例导览](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story)后，先看用户问题与 AI 回答，再切到「处理过程」。每一步先展示中文动作，点击后查看输入和结果，需要时再展开原始记录。最后对照评测结论，看看判断依据是否成立。浏览这些已保存的测试记录不需要 API Key。

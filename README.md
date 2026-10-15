@@ -8,27 +8,37 @@
 
 平时喜欢试新模型和 AI 产品，读技术文档，也逛开源社区。遇到感兴趣的想法，会用 Codex 做个原型，看看实际用起来怎么样。我把值得分享的资源整理在「AI 见闻录」里，也欢迎来交流你的发现。
 
-目前正在寻找 **AI 产品经理**的机会，也关注 **FDE 方向**。希望接下来的工作能让我更深入地接触用户，参与产品从需求讨论到交付使用的过程。
+目前正在寻找 **AI 产品经理与 FDE 方向的机会**。希望接下来的工作能让我更深入地接触用户，参与产品从需求讨论到交付使用的过程。
 
-[个人作品站](https://dominicspace.com/#home) · [UniHR 源码](https://github.com/DominicHongliDing/UniHR-AgentOS) · [Clinical 产品介绍](https://github.com/DominicHongliDing/Clinical-Agent) · [EVO 产品与源码](https://github.com/DominicHongliDing/Agent-EVO)
+[个人作品站](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/) · [UniHR 源码](https://github.com/DominicHongliDing/UniHR-AgentOS) · [Clinical 产品介绍](https://github.com/DominicHongliDing/Clinical-Agent) · [EVO 产品与源码](https://github.com/DominicHongliDing/Agent-EVO)
+
+## 第一次来，可以从这里开始
+
+| 项目 | 先看什么 | 演示入口 |
+| --- | --- | --- |
+| UniHR · 人事工作台 | 一份培训完成情况表，从说明要求到核对文件 | [看人事任务示例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/unihr/index.html) |
+| Clinical Agent · 病例工作台 | 一段不完整的病例，怎样整理信息、查资料、继续追问 | [看病例讨论示例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html) |
+| EVO · 评测平台 | 用户更正了信息，AI 的回答为什么没跟上 | [看一次评测](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story) |
+
+三个入口都可以先浏览，无需注册或填写 API Key。UniHR 与 Clinical 的三步示例用于说明产品思路，可以再进入工作台；EVO 展示虚构病例的实际历史测试，能逐层查看处理过程。自己运行 AI 任务时，再连接个人模型账户。
 
 ## 我在做的三个项目
 
-### 01 / UniHR AgentOS · 人事任务工作台
+### 01 / UniHR · 人事工作台
 
 查到政策后，往往还要整理成通知、表格或会议材料。UniHR 想帮高校人事和行政经办人员把这段工作接起来：用日常语言说明要求，由 AI 检索政策、安排处理步骤，再调用文件工具生成可以编辑的 Word 或 Excel。经办人可以核对出处、修改内容，继续完成手头的事。
 
 这是我从日常工作出发做的个人 Demo。我负责整理需求、设计流程和检查标准，并借助 AI 编程工具实现原型。
 
-[看产品与源码 →](https://github.com/DominicHongliDing/UniHR-AgentOS) · [看交互展示 →](https://dominicspace.com/#unihr)
+[看产品与源码 →](https://github.com/DominicHongliDing/UniHR-AgentOS) · [看人事任务示例 →](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/unihr/index.html)
 
-### 02 / Clinical Agent · 精神科临床辅助工作台
+### 02 / Clinical Agent · 病例工作台
 
 在卡罗莱纳精神病研究所实习、参与 VedAI 时，我定期与项目负责人、精神科医生和前后端工程师沟通。前期反馈让我注意到，低年资及非精神科医生处理复杂病例时，需要持续补充患者信息、查阅资料，而 AI 有时会遗漏前文，或在依据不足时给出过于肯定的回答。
 
-带着这些问题，我在实习后继续做了个人项目 Clinical Agent。它围绕同一位患者保存已确认的信息，通过检索增强生成（RAG）查找医学资料，让医生能接着补充情况、提出问题，并在回答旁查看引用和待核对的内容。最终的临床判断仍由医生作出。
+带着这些问题，我在实习后继续做了个人项目 Clinical Agent。它围绕同一位患者保存已确认的信息，从知识库中查找相关医学资料，让医生能接着补充情况、提出问题，并在回答旁查看引用和待核对的内容。最终的临床判断仍由医生作出。
 
-[看产品设计 →](https://github.com/DominicHongliDing/Clinical-Agent) · [打开工作台 →](https://dominicspace.com/apps/clinical/index.html)
+[看产品设计 →](https://github.com/DominicHongliDing/Clinical-Agent) · [看病例讨论示例 →](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html)
 
 ### 03 / Agent EVO · 评测与改进工作台
 
@@ -36,7 +46,7 @@
 
 EVO 把这个过程做成了工作台。产品、业务和开发同事可以对照测试要求查看回答，讨论哪里需要改，再比较修改前后的表现。AI 帮忙起草测试题、辅助评审和整理报告，评什么、结果是否合理，仍由人来确认。目前已公开源码、本地运行说明和在线案例。
 
-[看产品与源码 →](https://github.com/DominicHongliDing/Agent-EVO) · [看设计思路 →](docs/agent-evo.md) · [看公开评测案例 →](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story)
+[看产品与源码 →](https://github.com/DominicHongliDing/Agent-EVO) · [看设计思路 →](docs/agent-evo.md) · [看公开评测案例 →](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story)
 
 ## AI 见闻录 · 资源与阅读分享
 
