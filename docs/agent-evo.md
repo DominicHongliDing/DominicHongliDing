@@ -2,7 +2,7 @@
 
 从一次有问题的回答，走到一项可以验证的改进。
 
-[查看公开案例](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story) · [返回个人主页](../README.md)
+[查看源码与运行说明](https://github.com/DominicHongliDing/Agent-EVO) · [查看公开案例](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story) · [返回个人主页](../README.md)
 
 ## 为什么会做它
 
@@ -50,4 +50,4 @@ AI 根据产品说明起草测试题，按明确标准辅助评审回答，并�
 
 在线版本提供 Clinical 公开案例，以及回答导入、测试集、评审与版本对比等入口；真实模型调用需要相应配置。平台仍在迭代，真实用户的首次使用与业务校准需要继续验证。Clinical 案例使用合成测试材料，医疗判断仍需专业医生审核。
 
-这份文档介绍产品思路；EVO 应用源码尚未在此发布。
+EVO 平台源码现已整理到 [Agent-EVO 仓库](https://github.com/DominicHongliDing/Agent-EVO)，包含工作台、连接器、合成样例和自动化测试。可以按[本地运行指南](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/local-setup.md)开始体验。

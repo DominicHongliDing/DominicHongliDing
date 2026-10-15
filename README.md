@@ -8,7 +8,7 @@
 
 现在希望转向 **AI 产品经理**，也关注 **FD 方向**的机会。想做的工作很具体：走进业务现场，和使用者一起把问题讲清楚，再和团队把方案做出来、用起来。
 
-[个人作品站](https://dominicspace.com/#home) · [UniHR 源码](https://github.com/DominicHongliDing/UniHR-AgentOS) · [Clinical 产品介绍](https://github.com/DominicHongliDing/Clinical-Agent) · [EVO 设计笔记](docs/agent-evo.md)
+[个人作品站](https://dominicspace.com/#home) · [UniHR 源码](https://github.com/DominicHongliDing/UniHR-AgentOS) · [Clinical 产品介绍](https://github.com/DominicHongliDing/Clinical-Agent) · [EVO 产品与源码](https://github.com/DominicHongliDing/Agent-EVO)
 
 ## 最近在做的产品
 
@@ -32,9 +32,9 @@
 
 做完前两个项目，我开始更在意另一个问题：这次修改究竟有没有用？一次顺利的演示回答不了它。EVO 因此从具体失败案例出发，把测试问题、实际回答、判断依据和版本对比放到一起，帮助产品人员决定先修什么、改完怎么验。
 
-AI 在这里辅助准备测试问题、评审回答和整理报告，业务标准与最终判断由人确认。目前可以查看在线案例，源码发布另行整理。
+AI 在这里辅助准备测试问题、评审回答和整理报告，业务标准与最终判断由人确认。现在可以查看源码、在本地运行，也可以先从在线案例了解评测方法。
 
-[看设计思路 →](docs/agent-evo.md) · [看公开评测案例 →](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story)
+[看产品与源码 →](https://github.com/DominicHongliDing/Agent-EVO) · [看设计思路 →](docs/agent-evo.md) · [看公开评测案例 →](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story)
 
 ## 我在持续学习什么
 
