@@ -1,61 +1,39 @@
-![从身边的问题，开始做 AI 产品](assets/cover.svg)
+![丁泓力 · AI 产品与实践](assets/cover.svg)
 
 # 你好，我是丁泓力
 
-本科就读于西交利物浦大学，专业是生物信息学，后来在康奈尔大学完成了医疗信息学与人工智能硕士学业。目前在浙江大学“一带一路”国际医学院从事人事与国际交流工作，也参与用 AI 改进日常业务流程。此前曾在卡罗莱纳精神病研究所实习，参与临床辅助产品 VedAI 的需求研究、原型验证和上线工作。
+我在浙江大学“一带一路”国际医学院从事人事与国际交流工作，也在做 AI 产品。本科在西交利物浦大学学习生物信息学，硕士在康奈尔大学学习医疗信息学与人工智能。目前正在寻找 **AI 产品经理与 FDE 方向的机会**。
 
-这里的项目，大多从这些经历中来。人事工作里，查政策、核对表格、准备材料占去了不少时间；精神科实习中，我看到医生处理复杂病例时，需要反复整理患者信息、查阅医学资料。我想试着用 AI 帮上忙，也在和使用者、项目负责人及开发同事的交流中，逐渐把想法做成了可以使用的原型。
+这里有三个可以体验的项目，分别处理人事材料、病例讨论和 Agent 评测。平时也喜欢试新模型、逛开源社区，遇到有意思的想法，会用 Codex 做个原型试试。
 
-平时喜欢试新模型和 AI 产品，读技术文档，也逛开源社区。遇到感兴趣的想法，会用 Codex 做个原型，看看实际用起来怎么样。我把值得分享的资源整理在「AI 见闻录」里，也欢迎来交流你的发现。
+[个人作品站](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/) · [AI 见闻录](https://github.com/DominicHongliDing/AI-Fieldnotes)
 
-目前正在寻找 **AI 产品经理与 FDE 方向的机会**。希望接下来的工作能让我更深入地接触用户，参与产品从需求讨论到交付使用的过程。
+## 项目与体验
 
-[个人作品站](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/) · [UniHR 源码](https://github.com/DominicHongliDing/UniHR-AgentOS) · [Clinical 产品介绍](https://github.com/DominicHongliDing/Clinical-Agent) · [EVO 产品与源码](https://github.com/DominicHongliDing/Agent-EVO)
+| 产品 | 给谁用 | 能做什么 | 入口 |
+| --- | --- | --- | --- |
+| UniHR · 人事工作台 | 高校人事与行政经办人员 | 查政策、整理材料，生成可编辑的 Word / Excel | [产品与源码](https://github.com/DominicHongliDing/UniHR-AgentOS) · [在线示例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/unihr/index.html) |
+| Clinical Agent · 病例工作台 | 低年资及非精神科医生 | 整理病例、延续讨论，查阅并核对医学资料 | [产品与设计](https://github.com/DominicHongliDing/Clinical-Agent) · [在线示例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html) |
+| Agent EVO · 评测与改进工作台 | 产品、业务与开发同事 | 审核回答、保存问题，比较版本并安排复测 | [产品与源码](https://github.com/DominicHongliDing/Agent-EVO) · [评测案例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story) |
 
-## 第一次来，可以从这里开始
+在线示例与历史记录都可以直接浏览，无需注册或填写 API Key；实际运行 AI 任务时，再连接自己的模型账户。UniHR 和 EVO 已公开可本地运行的源码，Clinical 当前公开产品文档与在线演示。
 
-| 项目 | 先看什么 | 演示入口 |
-| --- | --- | --- |
-| UniHR · 人事工作台 | 一份培训完成情况表，从说明要求到核对文件 | [看人事任务示例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/unihr/index.html) |
-| Clinical Agent · 病例工作台 | 一段不完整的病例，怎样整理信息、查资料、继续追问 | [看病例讨论示例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html) |
-| EVO · 评测平台 | 用户更正了信息，AI 的回答为什么没跟上 | [看一次评测](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story) |
+## 设计案例
 
-三个入口都可以先浏览，无需注册或填写 API Key。UniHR 与 Clinical 的三步示例用于说明产品思路，可以再进入工作台；EVO 展示虚构病例的实际历史测试，能逐层查看处理过程。自己运行 AI 任务时，再连接个人模型账户。
+每个项目各选了一项任务，说明功能背后的判断、处理规则和验收方式。
 
-## 我在做的三个项目
+- [UniHR：培训完成情况统计与提醒通知](https://github.com/DominicHongliDing/UniHR-AgentOS/blob/main/docs/cases/training-follow-up.md)。确认统计口径，处理重复与空白，让表格和通知使用同一份结果。附虚构名单和可复算的预期。
+- [Clinical：病例信息更正与多轮延续](https://github.com/DominicHongliDing/Clinical-Agent/blob/main/docs/cases/patient-correction.md)。区分原始材料、用户更正与医生确认，定义下一轮回答应采用什么信息。附实际合成测试中的失败记录。
+- [EVO：信息更正失败的审核与复测](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/cases/correction-review.md)。对照对话核实评审意见，逐层查看执行依据，保存修复后的验证要求。
 
-### 01 / UniHR · 人事工作台
+## 我的背景与参与
 
-查到政策后，往往还要整理成通知、表格或会议材料。UniHR 想帮高校人事和行政经办人员把这段工作接起来：用日常语言说明要求，由 AI 检索政策、安排处理步骤，再调用文件工具生成可以编辑的 Word 或 Excel。经办人可以核对出处、修改内容，继续完成手头的事。
+人事工作中，查完规定还要核对表格、准备通知，这些经历让我开始做 UniHR。此前在卡罗莱纳精神病研究所实习时，我参与 VedAI 的需求研究、原型验证与上线，定期与项目负责人、精神科医生和前后端工程师沟通；Clinical Agent 是此后继续开发的个人项目。EVO 则来自前两个项目在修改、测试和核对结果时的需要。
 
-这是我从日常工作出发做的个人 Demo。我负责整理需求、设计流程和检查标准，并借助 AI 编程工具实现原型。
+在这些个人项目里，我负责整理需求、确定范围、设计交互与验收要求，再借助 AI 编程工具实现原型。现在最想继续验证的是：使用者能否独立完成任务，核对结果是否方便，以及哪些功能值得继续做。
 
-[看产品与源码 →](https://github.com/DominicHongliDing/UniHR-AgentOS) · [读培训跟进案例 →](https://github.com/DominicHongliDing/UniHR-AgentOS/blob/main/docs/cases/training-follow-up.md) · [看人事任务示例 →](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/unihr/index.html)
+## AI 见闻录
 
-### 02 / Clinical Agent · 病例工作台
+我把用过的 AI 网站、关注的 X / YouTube 作者，以及值得读的文章和视频放在[AI 见闻录](https://github.com/DominicHongliDing/AI-Fieldnotes)里，每周整理一次。除了链接，也会写上用途和推荐理由。
 
-在卡罗莱纳精神病研究所实习、参与 VedAI 时，我定期与项目负责人、精神科医生和前后端工程师沟通。前期反馈让我注意到，低年资及非精神科医生处理复杂病例时，需要持续补充患者信息、查阅资料，而 AI 有时会遗漏前文，或在依据不足时给出过于肯定的回答。
-
-带着这些问题，我在实习后继续做了个人项目 Clinical Agent。它围绕同一位患者保存已确认的信息，从知识库中查找相关医学资料，让医生能接着补充情况、提出问题，并在回答旁查看引用和待核对的内容。最终的临床判断仍由医生作出。
-
-[看产品设计 →](https://github.com/DominicHongliDing/Clinical-Agent) · [读病例更正案例 →](https://github.com/DominicHongliDing/Clinical-Agent/blob/main/docs/cases/patient-correction.md) · [看病例讨论示例 →](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html)
-
-### 03 / Agent EVO · 评测与改进工作台
-
-随着前两个项目不断修改，我越来越需要知道：换了提示词或模型，原来的问题究竟修好了没有？只看几条回答很难判断，于是我开始保存出过问题的场景，在修改后重新测试。
-
-EVO 把这个过程做成了工作台。产品、业务和开发同事可以对照测试要求查看回答，讨论哪里需要改，再比较修改前后的表现。AI 帮忙起草测试题、辅助评审和整理报告，评什么、结果是否合理，仍由人来确认。目前已公开源码、本地运行说明和在线案例。
-
-[看产品与源码 →](https://github.com/DominicHongliDing/Agent-EVO) · [读评审与复测案例 →](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/cases/correction-review.md) · [看设计思路 →](docs/agent-evo.md) · [看公开评测案例 →](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story)
-
-## AI 见闻录 · 资源与阅读分享
-
-这个公开资源库收录 AI 网站、X / YouTube 作者，以及值得读的文章和视频。除了原始链接，我也会写上推荐理由和适合的读者，每周整理一次。希望你来逛一圈，能找到几样用得上的东西。
-
-[打开 AI 见闻录 →](https://github.com/DominicHongliDing/AI-Fieldnotes) · [看文章与视频 →](https://github.com/DominicHongliDing/AI-Fieldnotes/blob/main/guides/reading.md)
-
-## 最近在关注
-
-最近在继续了解 Context Engineering 和 Harness Engineering。做项目时，用户补充的信息该怎样保留、哪些步骤需要工具完成、出错后怎样查清原因，都需要仔细处理。我想通过这些具体问题，把相关方法理解得更扎实。
-
-欢迎聊聊你试过的 AI 产品、做项目的经验，或工作中还没解决的问题。如果你正在招聘，也可以通过上面的项目和作品站进一步了解我的工作。
+最近在继续了解 Context Engineering 和 Harness Engineering，尤其关注新信息怎样保留、工具怎样配合，以及出错后怎样查清原因。欢迎交流你试过的产品和做项目的经验。

@@ -1,61 +1,29 @@
 # Agent EVO · 评测与改进工作台
 
-EVO 是我在做 Agent 的过程中逐渐整理出来的评测工作台，用来保存问题、审核回答，再检查修改有没有起作用。
+EVO 面向产品、业务与开发团队，用于准备测试要求、审核 Agent 回答、保存问题，并比较修复前后的结果。当前已公开源码、本地运行指南和在线案例。
 
-[查看源码与运行说明](https://github.com/DominicHongliDing/Agent-EVO) · [看一次评测](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story) · [返回个人主页](../README.md)
+[产品与源码](https://github.com/DominicHongliDing/Agent-EVO) · [在线案例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story) · [返回个人主页](../README.md)
 
-## 为什么会做它
+## 三种开始方式
 
-做 UniHR 和 Clinical Agent 时，我遇到过一些容易被忽略的问题：文件生成了，却漏了用户要求的字段；医生补充了新信息，下一轮回答却仍沿用旧条件。只看最后的回答，很难弄清问题出在哪一步，也不容易判断一次修改有没有效果。
+| 已有材料 | 可以做什么 |
+| --- | --- |
+| 问答或多轮对话 | 导入回答，对照预期审核，保存有原文依据的问题 |
+| 可调用的 Agent | 连接应用，用同一组题取得新结果并比较版本 |
+| 产品说明 | AI 草拟测试题，人工修改并确认要求和题库版本 |
 
-我希望 EVO 能帮助产品负责人、业务审核者和开发者一起检查这些问题。先写清任务应该怎样完成，再对照实际回答讨论哪里需要改；有代表性的场景保存下来，修改后重新测试。
+浏览历史案例无需 API Key；AI 出题、评审和报告需要配置个人模型账户。连接器支持应用留在原运行环境中，开发者配合配置接入。
 
-## 用户怎样开始
+## 设计重点
 
-| 手头有什么 | 从哪里开始 | 接下来能做什么 |
-|---|---|---|
-| 已有问答或对话记录 | 导入回答 | 按预期审核，定位缺口，把确认的问题留下来 |
-| 可以调用的 Agent | 连接自己的应用，再选择测试集 | 取得新回答，用同一组问题比较版本 |
-| 只有业务场景，还没有测试题 | 描述服务对象、任务和不能做的事 | 查看 AI 生成的草稿，修改并确认测试要求 |
+用户输入、预期、实际回答和引文一起查看。时间线先展示中文动作与结果，进入步骤看输入输出，再展开原始事件。人工审核可以修正模型判断并保留理由，材料不足的部分保持待确认。
 
-公开 Clinical 案例用于了解评测方法。自己的 Agent 应使用对应业务场景与验收要求。
+已确认的问题保存为回归场景，修复后记录版本与评审条件，再判断是否达到要求。规则处理明确的格式字段，AI 辅助语义判断，业务人员确认标准和最终结论。
 
-## 为什么这样设计
+## 核心案例与后续阅读
 
-### 先明确要做的决定
+[信息更正失败的审核与复测](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/cases/correction-review.md)展示原始对话、审核依据、时间线分层与复测条件。用户将“两周”更正为“三天”后，Agent 再次返回通用补充信息提示，未完成总结；当前保留失败，修复后的同条件复测尚待补齐。
 
-一次评测可能是检查当前质量，也可能是比较版本、验证已知问题。入口先问清目的，再展示所需步骤，让用户更容易找到这次需要的材料。
+[完整产品设计](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/product-design.md)说明范围、能力选择、异常与试用计划；[本地指南](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/local-setup.md)提供安装和模型配置。
 
-### 查看问题时，也能看到原始记录
-
-结果页把用户输入、实际回答、预期要求和执行记录放在一起。模型提出的可能原因需要进一步核对，材料不够的部分先标为待确认，方便产品人员和研发继续讨论。
-
-### 改过之后，还要用同一道题验证
-
-有代表性的错误可以保存为测试题。修复后再测一次，检查原来的问题是否解决，有没有影响其他场景。之前的回答和评审意见也会保存下来，供下一次比较。
-
-## AI 在里面做什么
-
-AI 根据产品说明起草测试题，按指定标准辅助评审回答，再整理问题报告。字段、格式等明确要求用规则检查，预期结果和评审意见由业务人员确认。测试题、实际回答和评审记录分别保存，模型生成的答案也需要经过审核才能作为参考。
-
-连接器让应用可以留在自己的电脑、内网或云服务里执行，平台收集约定的结果与证据。它服务于已有问答和多轮对话应用；具体接入仍需要开发者配合。
-
-## 从一个合成案例看设计
-
-公开的合成对话中，用户把病程从“两周”更正为“三天”，再请 Agent 总结。第二轮没有按更正后的病程完成总结，而是再次返回通用的信息不足提示。
-
-这个场景需要检查的是：后续回答有没有使用最新确认的信息。因此要保存前后两轮记录，写清预期结果，修复后再用同一个场景测试。
-
-## 当前可以看到什么
-
-在线版本提供 Clinical 公开案例，以及回答导入、测试集、评审与版本对比等入口；真实模型调用需要相应配置。平台仍在迭代，真实用户的首次使用与业务校准需要继续验证。Clinical 案例使用合成测试材料，医疗判断仍需专业医生审核。
-
-EVO 平台源码现已整理到 [Agent-EVO 仓库](https://github.com/DominicHongliDing/Agent-EVO)，包含工作台、连接器、合成样例和自动化测试。可以按[本地运行指南](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/local-setup.md)开始体验。
-
-## 在线案例怎么读
-
-打开[案例导览](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story)后，先看用户问题与 AI 回答，再切到「处理过程」。每一步先展示中文动作，点击后查看输入和结果，需要时再展开原始记录。最后对照评测结论，看看判断依据是否成立。浏览这些已保存的测试记录不需要 API Key。
-
-## 完整案例与设计说明
-
-[从更正失败到复测要求](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/cases/correction-review.md)展开原始对话、审核依据、时间线分层和验收方法。[完整产品设计](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/product-design.md)说明范围取舍、异常处理与下一轮使用验证。
+项目来自我迭代 UniHR 和 Clinical Agent 时核对修改效果的需要。我负责流程、审核界面和验收设计，并借助 AI 编程工具实现。下一步验证首次使用者能否独立完成审核与复测安排。
