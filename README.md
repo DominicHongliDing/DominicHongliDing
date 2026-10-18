@@ -7,7 +7,7 @@
 
 我是 **丁泓力**。从医疗辅助到高校人事，我在做能交付文件、保留依据、支持修改的 AI 工作流。目前寻找 **AI 产品经理 / FDE** 方向的机会。
 
-[浏览作品站 ↗](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/) · [项目](#selected-work) · [设计案例](#case-study) · [关于我](#about) · [AI 见闻录 ↗](https://github.com/DominicHongliDing/AI-Fieldnotes)
+[浏览作品站 ↗](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/) · [项目](#user-content-selected-work) · [设计案例](#user-content-case-study) · [关于我](#user-content-about) · [AI 见闻录 ↗](https://github.com/DominicHongliDing/AI-Fieldnotes)
 
 <a id="selected-work"></a>
 
