@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="340" viewBox="0 0 640 340" role="img" aria-labelledby="title desc">
+  <title id="title">丁泓力 · 让 AI 不只回答问题，也能把任务做完。</title>
+  <desc id="desc">Hongli Ding / AI Product &amp; Engineering. 医疗、人事与 Agent 可靠性。</desc>
+  <rect width="640" height="340" fill="#f7f4ee"/>
+  <path d="M0 0H640" stroke="#ac5b3f" stroke-width="8"/>
+  <g font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif">
+    <text x="32" y="46" fill="#354454" font-size="18" font-weight="600" letter-spacing="2">HONGLI DING</text>
+    <text x="32" y="75" fill="#6a706f" font-size="14" letter-spacing="1">AI PRODUCT &amp; ENGINEERING</text>
+    <path d="M32 97H608" stroke="#d8d3c9"/>
+    <text x="30" y="165" fill="#233446" font-size="43" font-weight="700">让 AI 不只回答问题，</text>
+    <text x="30" y="224" fill="#233446" font-size="43" font-weight="700">也能把任务做完。</text>
+    <rect x="32" y="245" width="60" height="4" fill="#ac5b3f"/>
+    <text x="32" y="298" fill="#606b73" font-size="19">丁泓力 / 医疗 × 人事 × Agent 可靠性</text>
+  </g>
+</svg>
