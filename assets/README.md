@@ -6,8 +6,8 @@
 
 | 文件 | 页面与画面 |
 | --- | --- |
-| `unihr-delivery.png` | [UniHR](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/unihr/index.html)：成绩汇总记录中的 Excel 交付与检查结果 |
-| `clinical-workbench.png` | [Clinical](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html?mode=browse)：虚构教学病例，讨论前补充病史的历史对话 |
-| `evo-review.png` | [EVO](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story)：病程更正的失败案例导览 |
+| `unihr-delivery.png` | [UniHR](https://dominicspace.com/apps/unihr/index.html)：成绩汇总记录中的 Excel 交付与检查结果 |
+| `clinical-workbench.png` | [Clinical](https://dominicspace.com/apps/clinical/index.html?mode=browse)：虚构教学病例，讨论前补充病史的历史对话 |
+| `evo-review.png` | [EVO](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story)：病程更正的失败案例导览 |
 
 截图是采集时的界面快照；演示页面后续可能更新。更新截图时应同步核对 README 的说明与项目当前范围。

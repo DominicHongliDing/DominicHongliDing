@@ -2,7 +2,7 @@
 
 EVO 是面向产品、业务和研发团队的 Agent 评测工作台。可以导入已有问答，按约定要求检查回答、记录问题，再用同一组测试核对修改效果。
 
-[产品与源码](https://github.com/DominicHongliDing/Agent-EVO) · [在线案例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story) · [返回个人主页](../README.md)
+[产品与源码](https://github.com/DominicHongliDing/Agent-EVO) · [在线案例](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story) · [返回个人主页](../README.md)
 
 ## 阅读入口
 

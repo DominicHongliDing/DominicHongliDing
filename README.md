@@ -7,7 +7,7 @@
 
 我是 **丁泓力**。从医疗辅助到高校人事，我在做能交付文件、保留依据、支持修改的 AI 工作流。目前寻找 **AI 产品经理 / FDE** 方向的机会。
 
-[浏览作品站 ↗](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/) · [项目](#user-content-selected-work) · [设计案例](#user-content-case-study) · [关于我](#user-content-about) · [AI 见闻录 ↗](https://github.com/DominicHongliDing/AI-Fieldnotes)
+[浏览作品站 ↗](https://dominicspace.com/) · [项目](#user-content-selected-work) · [设计案例](#user-content-case-study) · [关于我](#user-content-about) · [AI 见闻录 ↗](https://github.com/DominicHongliDing/AI-Fieldnotes)
 
 <a id="selected-work"></a>
 
@@ -21,9 +21,9 @@ AI 生成之后，工作完成了吗？结果能否核对？出错后，又怎�
 
 面向高校人事与行政经办人员，把政策查询、材料整理和 Word / Excel 交付放进同一任务。我关心的是：统计口径是否一致、文件能否使用，以及失败后怎样继续处理。
 
-[**查看交付回放 ↗**](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/unihr/index.html) · [阅读设计案例](https://github.com/DominicHongliDing/UniHR-AgentOS/blob/main/docs/cases/training-follow-up.md) · [查看源码](https://github.com/DominicHongliDing/UniHR-AgentOS)
+[**查看交付回放 ↗**](https://dominicspace.com/apps/unihr/index.html) · [阅读设计案例](https://github.com/DominicHongliDing/UniHR-AgentOS/blob/main/docs/cases/training-follow-up.md) · [查看源码](https://github.com/DominicHongliDing/UniHR-AgentOS)
 
-[![UniHR 真实界面：Excel 文件下载、质量检查和运行过程；使用虚构测试材料](assets/unihr-delivery.png)](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/unihr/index.html)
+[![UniHR 真实界面：Excel 文件下载、质量检查和运行过程；使用虚构测试材料](assets/unihr-delivery.png)](https://dominicspace.com/apps/unihr/index.html)
 
 <sub>历史回放 · 虚构测试材料的实际调用记录。图中展示文件交付与检查结果；培训跟进案例另列设计规则和待完成的验证。</sub>
 
@@ -35,9 +35,9 @@ AI 生成之后，工作完成了吗？结果能否核对？出错后，又怎�
 
 面向低年资及非精神科医生，整理病例、延续讨论并查证资料。我关注更正后的信息是否进入后续回答，以及来源、不确定性和待确认事项能否让医生看清楚。
 
-[**浏览病例回放 ↗**](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html?mode=browse) · [阅读设计案例](https://github.com/DominicHongliDing/Clinical-Agent/blob/main/docs/cases/patient-correction.md) · [产品文档](https://github.com/DominicHongliDing/Clinical-Agent)
+[**浏览病例回放 ↗**](https://dominicspace.com/apps/clinical/index.html?mode=browse) · [阅读设计案例](https://github.com/DominicHongliDing/Clinical-Agent/blob/main/docs/cases/patient-correction.md) · [产品文档](https://github.com/DominicHongliDing/Clinical-Agent)
 
-[![Clinical Agent 真实界面：虚构教学病例的对话、记录信息与处理步骤](assets/clinical-workbench.png)](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html?mode=browse)
+[![Clinical Agent 真实界面：虚构教学病例的对话、记录信息与处理步骤](assets/clinical-workbench.png)](https://dominicspace.com/apps/clinical/index.html?mode=browse)
 
 <sub>教学回放 · 虚构病例的实际调用记录，保留原回答。当前公开演示与文档，尚无真实临床试点；专业判断由医生负责。</sub>
 
@@ -49,9 +49,9 @@ AI 生成之后，工作完成了吗？结果能否核对？出错后，又怎�
 
 面向产品、业务与研发同事，将原始对话、评审意见和执行记录放在一起。我关注的不只是评分，而是问题有没有原文依据、修改要求是否明确，以及复测条件能否保留下来。
 
-[**回看失败案例 ↗**](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story) · [阅读设计案例](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/cases/correction-review.md) · [查看源码](https://github.com/DominicHongliDing/Agent-EVO)
+[**回看失败案例 ↗**](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story) · [阅读设计案例](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/cases/correction-review.md) · [查看源码](https://github.com/DominicHongliDing/Agent-EVO)
 
-[![Agent EVO 真实界面：病程由两周更正为三天的失败案例，支持对照对话、处理过程与评测结论](assets/evo-review.png)](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story)
+[![Agent EVO 真实界面：病程由两周更正为三天的失败案例，支持对照对话、处理过程与评测结论](assets/evo-review.png)](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story)
 
 <sub>历史案例 · 保留失败回答与处理依据；修复后按相同条件重测的结果尚待补齐。</sub>
 
